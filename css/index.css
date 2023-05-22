@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:auto;
+}
+
+body{
+	font-family:Arial, sans-serif;
+}
+
+header{
+	background-color:#333333;
+	color:#ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+h1{
+	margin:0;
+	font-size:24px;
+}
+
+.container{
+	max-width:960px;
+	margin:20px auto;
+	padding:0 20px;
+	color:#333333;
+}
+
+/* Estilos adicionais especificos para
+a página inicial */
+.hero{
+	background-image:url('imagens/servidores1.jpg');
+	background-size:cover;
+	background-position:center;
+	height:400px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+}
+
+.hero h2{
+	font-size:36px;
+	color:#ffffff;
+	margin-bottom:20px;
+}
+
+.hero p{
+	font-size:18px;
+	color:#ffffff;
+}
+
+.featured-products{
+	display:flex;
+	justify-content:center;
+	margin-top:60px;
+}
+
+.featured-products .product{
+	width:200px;
+	margin:0 10px;
+	text-align: center;
+}
+
+.featured-products .product img{
+	width:100%;
+}
+
+.featured-products product h3{
+	font-size:18px;
+	margin:10px 0;
+}
+
+.featured-products .product p{
+	font-size:14px;
+	color:#888888;
+}
+
+footer{
+	background-color:#333333;
+	color:#ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+footer p{
+	margin:0;
+	font-size:14px;
+}
